@@ -28,10 +28,10 @@ export const build = [
 ];
 
 export const dev = {
-    input: 'latkazombit.js',
+    input: 'testipeli.js',
     output: {
         name: 'kiigame',
-        file: 'public/latkazombit.js',
+        file: 'public/testipeli.js',
         format: 'iife',
         sourcemap: true
     },

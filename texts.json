@@ -11,6 +11,14 @@
     "object_layer_locker_room_2": {
         "name": "Pukuhuone 2"
     },
+    "kirves": {
+        "name": "kirves",
+        "pickup": "Noniin kirveestä on varmasti hyötyä"
+    },
+    "kirves_item": {
+        "name": "kirves",
+        "examine": "Tällähän voisin hakata halkoja"
+    },
     "object_layer_wc_1": {
         "name": "Vessa 1"
     },
@@ -25,7 +33,7 @@
     },
     "start_credits": {
         "name": "start_credits",
-        "examine": "Tiesitkö muuten että tämän huikean pelin tekivät:\n- Eino Keskitalo\n- Toni Käkelä\n- Topi Leinonen\n- Eetu Mansikkamäki\n- Martti Similä"
+        "examine": "Tämä peli on testi projektin toteutuksen valmistautumista varten. \nMade by Aleksi Hytönen"
     },
     "jersey": {
         "name": "Pelipaita"
@@ -82,7 +90,7 @@
         "name": "Pyyhi"
     },
     "intro": {
-        "examine": "Missäköhän hitossa minä olen... Ja miten täältä pääsee pois."
+        "examine": "Onpas mukava päästä tänne. Voisin sytyttää nuotion.\nMitenköhän se onnistuisi..."
     },
     "rewards_text": {
         "text": "/3 piilotettua kirjaa löydetty"

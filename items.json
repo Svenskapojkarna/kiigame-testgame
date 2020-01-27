@@ -11,6 +11,15 @@
     {
         "attrs": {
             "category": "item",
+            "id": "kirves_item",
+            "src": "images/propsit/kirves.png",
+            "visible": false
+        },
+        "className": "Image"
+    },
+    {
+        "attrs": {
+            "category": "item",
             "id": "dnaanalyzer",
             "src": "images/dnaanalyzer.png",
             "visible": false

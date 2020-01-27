@@ -487,6 +487,30 @@
             }
         ]
     },
+    "kirves": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kirves", "string": "pickup"}
+            },
+            {
+                "command": "remove_object",
+                "object": "kirves"
+            },
+            {
+                "command": "inventory_add",
+                "item": "kirves_item"
+            }
+        ]
+    },
+    "kirves_item": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kirves_item", "string": "examine"}
+            }
+        ]
+    },
     "tactic_board_1": {
     },
     "tactic_board_2": {
