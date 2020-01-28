@@ -13,3 +13,4 @@ class JSONGetter {
 }
 
 export default JSONGetter;
+

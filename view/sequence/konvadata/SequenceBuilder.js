@@ -22,3 +22,4 @@ class SequenceBuilder {
 }
 
 export default SequenceBuilder;
+

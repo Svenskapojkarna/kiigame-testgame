@@ -9,3 +9,4 @@ stage.find('#start_empty')[0].on('tap click', function(event) {
 	event = event.target;
 	stage.draw();
 });
+
