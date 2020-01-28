@@ -29,6 +29,138 @@
                         "y": 200
                     },
                     "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "kanto",
+                        "src": "images/propsit/puu.png",
+                        "visible": true,
+                        "x": 400,
+                        "y": 200
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "tulitikku",
+                        "src": "images/propsit/tulitikku.png",
+                        "visible": true,
+                        "x": 600,
+                        "y": 200
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "nuoli1",
+                        "src": "images/propsit/nuoli.png",
+                        "visible": false,
+                        "x": 800,
+                        "y": 200
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "nuotio",
+                        "src": "images/propsit/nuotio.png",
+                        "visible": false,
+                        "x": 200,
+                        "y": 150
+                    },
+                    "className": "Image"
+                }
+            ],
+            "className": "Layer"
+        },
+        {
+            "attrs": {
+                "category": "room",
+                "id": "keskihuone",
+                "start": false,
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "category": "room_background",
+                        "height": 543,
+                        "id": "palava",
+                        "src": "images/taustat/keskikohta.jpg",
+                        "width": 981,
+                        "visible": true
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "nuotio2",
+                        "src": "images/propsit/nuotio.png",
+                        "visible": true,
+                        "x": 200,
+                        "y": 150
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "ampari",
+                        "src": "images/propsit/ampari.png",
+                        "visible": true,
+                        "x": 400,
+                        "y": 150
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "nuoli2",
+                        "src": "images/propsit/nuoli.png",
+                        "visible": false,
+                        "x": 800,
+                        "y": 200
+                    },
+                    "className": "Image"
+                }
+            ],
+            "className": "Layer"
+        },
+        {
+            "attrs": {
+                "category": "room",
+                "id": "loppuhuone",
+                "start": false,
+                "visible": false
+            },
+            "children": [
+                {
+                    "attrs": {
+                        "category": "room_background",
+                        "height": 543,
+                        "id": "loppu",
+                        "src": "images/taustat/loppu.jpg",
+                        "width": 981,
+                        "visible": true
+                    },
+                    "className": "Image"
+                },
+                {
+                    "attrs": {
+                        "category": "furniture",
+                        "id": "nuoli3",
+                        "src": "images/propsit/nuoli.png",
+                        "visible": true,
+                        "x": 800,
+                        "y": 200
+                    },
+                    "className": "Image"
                 }
             ],
             "className": "Layer"

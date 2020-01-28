@@ -21,6 +21,194 @@
                 "command": "monologue",
                 "textkey": {"object": "kirves_item", "string": "examine"}
             }
+        ],
+        "kanto": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kirves_item", "string": "to_kanto"}
+            },
+            {
+                "command": "remove_object",
+                "object": "kanto"
+            },
+            {
+                "command": "inventory_add",
+                "item": "polttopuut"
+            }
+        ]
+    },
+    "polttopuut": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "polttopuut", "string": "examine"}
+            }
+        ],
+        "tulitikku_item": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "polttopuut", "string": "to_tulitikku"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "polttopuut"
+            },
+            {
+                "command": "inventory_remove",
+                "item": "tulitikku_item"
+            },
+            {
+                "command": "add_object",
+                "object": "nuotio"
+            },
+            {
+                "command": "add_object",
+                "object": "nuoli1"
+            }
+        ]
+    },
+    "tulitikku": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "tulitikku", "string": "pickup"}
+            },
+            {
+                "command": "remove_object",
+                "object": "tulitikku"
+            },
+            {
+                "command": "inventory_add",
+                "item": "tulitikku_item"
+            }
+        ]
+    },
+    "tulitikku_item": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "tulitikku_item", "string": "examine"}
+            }
+        ],
+        "polttopuut": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "tulitikku_item", "string": "to_polttopuut"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "polttopuut"
+            },
+            {
+                "command": "inventory_remove",
+                "item": "tulitikku_item"
+            },
+            {
+                "command": "add_object",
+                "object": "nuotio"
+            },
+            {
+                "command": "add_object",
+                "object": "nuoli1"
+            }
+        ]
+    },
+    "nuotio": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "nuotio", "string": "examine"}
+            }
+        ]
+    },
+    "nuoli1": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "keskihuone"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object": "keskihuone", "string": "start"},
+                "timeout": 1000
+            }
+        ]
+    },
+    "nuotio2": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "nuotio2", "string": "examine"}
+            }
+        ]
+    },
+    "ampari": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari", "string": "pickup"}
+            },
+            {
+                "command": "remove_object",
+                "object": "ampari"
+            },
+            {
+                "command": "inventory_add",
+                "item": "ampari_item"
+            }
+        ]
+    },
+    "ampari_item": {
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ampari_item", "string": "examine"}
+            }
+        ],
+        "nuotio2": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "nuotio2", "string": "stop"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "ampari_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "nuotio2"
+            },
+            {
+                "command": "add_object",
+                "object": "nuoli2"
+            }
+        ]
+    },
+    "nuoli2": {
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "loppuhuone"
+            },
+            {
+                "command": "monologue",
+                "textkey": {"object": "loppuhuone", "string": "start"},
+                "timeout": 1000
+            }
+        ]
+    },
+    "nuoli3": {
+        "click": [
+            {
+                "command": "play_sequence",
+                "sequence": "outro",
+                "monologue": false
+            },
+            {
+                "command": "play_ending",
+                "ending": "end_layer",
+                "timeout": 4700
+            }
         ]
     }
 }

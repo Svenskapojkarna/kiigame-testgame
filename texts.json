@@ -5,20 +5,62 @@
     "default.pickable": {
         "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
     },
+    "intro": {
+        "examine": "Onpas mukava päästä tänne. Voisin sytyttää nuotion.\nMitenköhän se onnistuisi..."
+    },
+    "start_credits": {
+        "name": "start_credits",
+        "examine": "Tämä peli on testi projektin toteutuksen valmistautumista varten. \nMade by Aleksi Hytönen"
+    },
     "kirves": {
         "name": "kirves",
         "pickup": "Noniin kirveestä on varmasti hyötyä"
     },
     "kirves_item": {
         "name": "kirves",
-        "examine": "Tällähän voisin hakata halkoja"
+        "examine": "Tällähän voisin hakata halkoja",
+        "to_kanto": "Ja näin saadaan polttopuita!"
     },
-    "start_credits": {
-        "name": "start_credits",
-        "examine": "Tämä peli on testi projektin toteutuksen valmistautumista varten. \nMade by Aleksi Hytönen"
+    "kanto": {
+        "name": "kanto",
+        "examine": "Kirveellä voisin hakata tästä polttopuita."
     },
-    "intro": {
-        "examine": "Onpas mukava päästä tänne. Voisin sytyttää nuotion.\nMitenköhän se onnistuisi..."
+    "polttopuut": {
+        "name": "polttopuut",
+        "examine": "Näistä voin tehdä nuotion!",
+        "to_tulitikku": "Noniin saatiin nuotio aikaiseksi!\nNyt lepäilemään :D"
+    },
+    "tulitikku": {
+        "name": "tulitikku",
+        "pickup": "No mutta! Miten täältä tulitikku löytyi!"
+    },
+    "tulitikku_item": {
+        "name": "tulitikku",
+        "examine": "Tällä voin sytyttää nuotion!",
+        "to_polttopuut": "Noniin saatiin nuotio aikaiseksi!\nNyt lepäilemään :D"
+    },
+    "nuotio": {
+        "name": "nuotio",
+        "examine": "Biru kun on kuuma!"
+    },
+    "keskihuone" : {
+        "start": "Voihan harmitus! Syttyi metsäpalo :(\nNuotio täytyy sammuttaa, jotta metsäpalo sammuisi!"
+    },
+    "nuotio2": {
+        "name": "nuotio",
+        "examine": "Tämä täytyy saada sammumaan!",
+        "stop": "Huh nyt saatiin palo sammutettua"
+    },
+    "ampari": {
+        "name": "ämpäri",
+        "pickup": "Jes tällä voin sammuttaa nuotion!"
+    },
+    "ampari_item": {
+        "name": "ampari",
+        "examine": "Äkkiä vedet nuotioon!"
+    },
+    "loppuhuone": {
+        "start": "Noniin miten tässä nyt näin pääsi käymään..."
     }
 }
 
