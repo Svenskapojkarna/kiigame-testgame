@@ -11,15 +11,5 @@
             }
         ],
         "transition_length": 3000
-    },
-    "outro": {
-        "slides": [
-            {
-                "do_fade": true,
-                "id": "outro_1",
-                "show_time": 4000,
-                "imageSrc": "images/outro_1.png"
-            }
-        ]
     }
 }
